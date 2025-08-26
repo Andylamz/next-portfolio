@@ -99,13 +99,7 @@ function DevopsSlider() {
         </motion.div>
       )}
       {isOpen && (
-        <motion.div
-          initial={{ opacity: 0, x: -80 }}
-          whileInView={{ opacity: 1, x: 0 }}
-          transition={{ duration: 1.5 }}
-          viewport={{ once: true, amount: 0.5 }}
-          className="flex flex-col max-w-200 w-full gap-5 h-full md:bg-[#4b4b4b] min-h-[400px] py-5 px-4 min-w-0 rounded-xl "
-        >
+        <div className="flex flex-col max-w-200 w-full gap-5 h-full md:bg-[#4b4b4b] min-h-[400px] py-5 px-4 min-w-0 rounded-xl ">
           <div className="flex justify-between items-end mb-2 w-full px-3 h-9">
             <h3 className="lg:text-3xl text-lg text-white">DEVOPS</h3>
             <p onClick={handleOnClickBack} className="cursor-pointer hover:">
@@ -121,7 +115,7 @@ function DevopsSlider() {
               })}
             </div>
           </div>
-        </motion.div>
+        </div>
       )}
     </>
   );
