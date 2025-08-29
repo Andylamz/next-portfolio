@@ -22,8 +22,8 @@ function ProjectCard({ projectData }) {
       </div>
       <div className="pt-4 select-none">
         <div onClick={() => handleRedirect("/about")}>
-          <div className="px-8 flex justify-between items-end">
-            <h4 className=" text-2xl font-medium text-white ">
+          <div className="px-8 flex md:justify-between justify-start max-md:flex-col md:items-end gap-1">
+            <h4 className="text-lg font-medium text-white">
               {projectData.title}
             </h4>
             <p className="text-sm text-[#ea590b]">{projectData.category}</p>
