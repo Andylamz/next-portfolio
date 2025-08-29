@@ -4,9 +4,9 @@ import { motion } from "framer-motion";
 function SkillsDescription() {
   return (
     <motion.p
-      initial={{ opacity: 0, x: -40 }}
+      initial={{ opacity: 0, x: -110 }}
       whileInView={{ opacity: 1, x: 0 }}
-      transition={{ duration: 1.5 }}
+      transition={{ duration: 2 }}
       viewport={{ once: true, amount: 0.5 }}
       className="text-[#d6d6d6] text-center text-lg max-w-[1100px] max-md:text-base"
     >
