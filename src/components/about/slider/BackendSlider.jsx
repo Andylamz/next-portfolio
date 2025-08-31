@@ -71,7 +71,7 @@ function BackendSlider() {
               {backendData.map((data, idx) => {
                 return (
                   <SwiperSlide
-                    className="bg-[transparent]  py-6 group"
+                    className="flex flex-col items-center justify-center py-6 group"
                     key={idx}
                   >
                     <div className="flex justify-center w-full ">

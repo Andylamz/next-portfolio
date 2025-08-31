@@ -1,5 +1,6 @@
 const projectsData = [
   {
+    id: 0,
     title: "Andy Fitness App",
     description:
       "Andy Fitness App is a MERN based fullstack fitness tracking app using Tailwind, Clerk, and Chart.js. It lets users calculate BMI/BMR, explore recipes via API, and track calories, steps, exercise, weight, and nutrition through a secure dashboard with daily data stored in MongoDB Atlas ",
@@ -15,13 +16,23 @@ const projectsData = [
       "Axios",
       "Chartjs",
       "React Router",
+      "Responsive",
     ],
     framework: "MERN",
     src: "/projectScreenshots/fitness.png",
     demo: "https://andy-fitness-app.netlify.app/",
     github: "https://github.com/Andylamz/mern-Fitness-frontend",
+    images: [
+      "/projectScreenshots/fitness/00.png",
+      "/projectScreenshots/fitness/01.jpeg",
+      "/projectScreenshots/fitness/02.jpeg",
+      "/projectScreenshots/fitness/03.jpeg",
+      "/projectScreenshots/fitness/04.jpeg",
+      "/projectScreenshots/fitness/05.jpeg",
+    ],
   },
   {
+    id: 1,
     title: "Creative Challenge",
     description:
       "This project was created early in my bootcamp journey, right after learning HTML and CSS and before starting JavaScript. It was part of a friendly class competition, and my work was voted the winner by the instructors.",
@@ -31,8 +42,10 @@ const projectsData = [
     src: "/projectScreenshots/creativeChallenge.png",
     demo: "https://tubular-naiad-08f504.netlify.app/",
     github: "https://github.com/Andylamz/creative-challenge/",
+    images: ["/projectScreenshots/creativeChallenge.png"],
   },
   {
+    id: 2,
     title: "Andy Pet Store",
     description:
       "A full-stack pet store application built with Next.js 15, allowing users to broswe products, create accounts, and mange orders. Includes a selller dashboard, image uploads and access control. I built this project to practice real-world full stack development and authentication workflows.",
@@ -52,8 +65,19 @@ const projectsData = [
     src: "/projectScreenshots/next-pet.png",
     demo: "https://next-pet-store-5tc4qqkfq-yan-ting-lams-projects.vercel.app/",
     github: "https://github.com/Andylamz/next-pet-store",
+    images: [
+      "/projectScreenshots/next-pet/00.png",
+      "/projectScreenshots/next-pet/01.jpeg",
+      "/projectScreenshots/next-pet/02.jpeg",
+      "/projectScreenshots/next-pet/03.jpeg",
+      "/projectScreenshots/next-pet/04.jpeg",
+      "/projectScreenshots/next-pet/05.jpeg",
+      "/projectScreenshots/next-pet/06.jpeg",
+      "/projectScreenshots/next-pet/07.jpeg",
+    ],
   },
   {
+    id: 3,
     title: "Music Collection",
     description:
       "A full-stack music collection app built with the MERN stack. Users can search, favourite and manage their music tracks with a custom authentication system. The login and registration were implemented from scratch, with passwords hashed using MD5 and validated against stored hashes. JWT tokens are issued and required for all API requests, ensuring secure access to user-specific data.",
@@ -73,8 +97,17 @@ const projectsData = [
     src: "/projectScreenshots/musicCollection.png",
     demo: "https://music-collection-mw9c.onrender.com",
     github: "https://github.com/Andylamz/music-collection",
+    images: [
+      "/projectScreenshots/musicCollection/00.png",
+      "/projectScreenshots/musicCollection/01.jpeg",
+      "/projectScreenshots/musicCollection/02.jpeg",
+      "/projectScreenshots/musicCollection/03.jpeg",
+      "/projectScreenshots/musicCollection/04.jpeg",
+      "/projectScreenshots/musicCollection/05.jpeg",
+    ],
   },
   {
+    id: 4,
     title: "Blog App",
     category: "Full Stack",
     description:
@@ -94,8 +127,15 @@ const projectsData = [
     src: "/projectScreenshots/next-blog.png",
     demo: "https://next-blog-app-blond-rho.vercel.app/",
     github: "https://github.com/Andylamz/next-blog-app",
+    images: [
+      "/projectScreenshots/next-blog/00.png",
+      "/projectScreenshots/next-blog/01.jpeg",
+      "/projectScreenshots/next-blog/02.jpeg",
+      "/projectScreenshots/next-blog/03.jpeg",
+    ],
   },
   {
+    id: 5,
     title: "Movie Finder",
     description:
       "A simple movie search app built with React and Vite. Users can view the most popular movies on page load, search for specific title, and view details like poster, overview and runtime.",
@@ -114,8 +154,14 @@ const projectsData = [
     src: "/projectScreenshots/movieFinder.png",
     demo: "https://incandescent-phoenix-1b2fa2.netlify.app/",
     github: "https://github.com/Andylamz/movie-finder",
+    images: [
+      "/projectScreenshots/movieFinder/00.jpeg",
+      "/projectScreenshots/movieFinder/01.jpeg",
+      "/projectScreenshots/movieFinder/02.jpeg",
+    ],
   },
   {
+    id: 6,
     title: "Product List",
     category: "Full Stack",
     description:
@@ -133,17 +179,29 @@ const projectsData = [
     src: "/projectScreenshots/productList.jpg",
     demo: "https://mern-fullstack-wkys.onrender.com",
     github: "https://github.com/Andylamz/mern-fullstack",
+    images: [
+      "/projectScreenshots/productList/00.jpg",
+      "/projectScreenshots/productList/01.jpeg",
+      "/projectScreenshots/productList/02.jpeg",
+    ],
   },
   {
+    id: 7,
     title: "Portfolio V1",
     description:
       "This is my first portfolio site built during my early learning phase using HTML, CSS, and Vanilla JavaScript. It reflects the foundational skills I developed while exploring responsive design and layout techniques.",
     category: "Frontend",
     tags: ["CSS", "HTML", "JavaScript", "Netlify"],
     framework: "JavaScript",
-    src: "/projectScreenshots/portfolio.png",
+    src: "/projectScreenshots/portfolio.jpeg",
     demo: "https://andyytlportfolio.netlify.app/",
     github: "https://github.com/Andylamz/Portfolio",
+    images: [
+      "/projectScreenshots/portfolioV1/00.jpeg",
+      "/projectScreenshots/portfolioV1/01.jpeg",
+      "/projectScreenshots/portfolioV1/02.png",
+      "/projectScreenshots/portfolioV1/03.jpeg",
+    ],
   },
 ];
 
