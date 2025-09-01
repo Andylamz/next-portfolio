@@ -9,7 +9,7 @@ function ContactForm() {
   const [message, setMessage] = useState("");
   const templateId = process.env.NEXT_PUBLIC_TEMPLATE_ID;
   const serviceId = process.env.NEXT_PUBLIC_SERVICE_ID;
-  const publicKey = process.env.NEXT_PUBLIC_PUBLIC_KEY;
+  const publicKey = process.env.NEXT_PUBLIC_EMAIL_PUBLIC_ID;
 
   async function sendEmail(e) {
     e.preventDefault();
