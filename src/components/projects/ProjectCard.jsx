@@ -53,6 +53,9 @@ function ProjectCard({ projectData }) {
               </p>
             </Link>
           </div>
+          <div>
+            <h6 className="">{projectData.framework}</h6>
+          </div>
         </div>
       </div>
     </div>

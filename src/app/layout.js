@@ -15,9 +15,9 @@ const poppins = Poppins({
 export const metadata = {
   title: "Portfolio | Andy YT Lam",
   description: "This is Andy's portfolio built with Next.js",
-  icons: {
-    icon: "/favicon-96x96.png",
-  },
+  // icons: {
+  //   icon: [{ url: "/favicon-96x96.png", type: "image/png", size: "96x96" }],
+  // },
 };
 
 export default function RootLayout({ children }) {

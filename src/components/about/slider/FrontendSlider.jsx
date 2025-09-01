@@ -31,10 +31,10 @@ function Slider() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 1.5 }}
           viewport={{ once: true, amount: 0.5 }}
-          className="max-w-200 w-full gap-5 h-full min-h-[400px] md:bg-[#4b4b4b] py-10 px-4 min-w-0 rounded-xl"
+          className="max-w-200 w-full gap-5 h-full md:bg-[#4b4b4b] px-4 py-5 min-w-0 rounded-xl"
         >
-          <div className="flex py-5 lg:px-12 px-2 justify-between items-end ">
-            <h3 className="text-center text-[white] text-4xl max-md:text-2xl">
+          <div className="flex mb-8 px-3 h-9 justify-between items-end ">
+            <h3 className="text-center text-[white] lg:text-3xl text-lg">
               FRONTEND
             </h3>
             <p

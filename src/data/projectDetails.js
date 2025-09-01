@@ -185,7 +185,7 @@ const projectsData = [
   },
   {
     id: 7,
-    title: "Portfolio V1",
+    title: "Portfolio v1",
     description:
       "This is my first portfolio site built during my early learning phase using HTML, CSS, and Vanilla JavaScript. It reflects the foundational skills I developed while exploring responsive design and layout techniques.",
     category: "Frontend",
@@ -199,6 +199,34 @@ const projectsData = [
       "/projectScreenshots/portfolioV1/01.jpeg",
       "/projectScreenshots/portfolioV1/02.png",
       "/projectScreenshots/portfolioV1/03.jpeg",
+    ],
+  },
+  {
+    id: 8,
+    title: "Portfolio v2",
+    description:
+      "A modern portfolio built with Next.js, React, and Tailwind Css to showcase my projects and skills. Compared to my first version, this one focuses on bettwe UIm smoother UX, and a cleaner, responsive design. Each page includes its own metadata description, with dynamic metadata implemented through Next.js generateMetadata for improved SEO.",
+    category: "Frontend",
+    tags: [
+      "Next.js",
+      "Tailwind CSS",
+      "SEO",
+      "Toastify",
+      " Emailjs",
+      "Swiper",
+      "framer-motion",
+    ],
+    framework: "Next.js",
+    src: "/projectScreenshots/portfolioV2/00.jpeg",
+    demo: "https://next-portfolio-c79y5crl6-yan-ting-lams-projects.vercel.app/",
+    github: "https://github.com/Andylamz/next-portfolio",
+    images: [
+      "/projectScreenshots/portfolioV2/00.jpeg",
+      "/projectScreenshots/portfolioV2/01.jpeg",
+      "/projectScreenshots/portfolioV2/02.jpeg",
+      "/projectScreenshots/portfolioV2/03.jpeg",
+      "/projectScreenshots/portfolioV2/04.jpeg",
+      "/projectScreenshots/portfolioV2/05.jpeg",
     ],
   },
 ];

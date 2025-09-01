@@ -28,7 +28,7 @@ function HomeBtn() {
         </div>
       </div>
       <Link
-        href="https://www.linkedin.com/in/yan-ting-lam-3a040b361/"
+        href={"https://www.linkedin.com/in/yan-ting-lam-3a040b361/"}
         target="_blank"
         className={`fixed rounded-full bottom-10 right-4 z-10 bg-[black] border border-[#4b4b4b] w-12 h-12 group xl:right-28 md:right-8 duration-700 ${
           isOpened ? "-translate-y-13 block" : " translate-y-0"
