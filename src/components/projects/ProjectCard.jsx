@@ -32,14 +32,22 @@ function ProjectCard({ projectData }) {
             {projectData.description}
           </p>
         </div>
-        <div className="flex justify-between mt-4 px-8 py-3 bg-[#100e27] ">
+        <div className="flex justify-between mt-4 px-8 py-3 bg-[#23297c] ">
           <div className="flex gap-8">
-            <Link href={projectData.github} className="group z-100">
+            <Link
+              href={projectData.github}
+              target="_blank"
+              className="group z-100"
+            >
               <p className="group-hover:text-[#ea590b] text-[white] duration-500">
                 Github
               </p>
             </Link>
-            <Link href={projectData.demo} className="group z-100">
+            <Link
+              href={projectData.demo}
+              target="_blank"
+              className="group z-100"
+            >
               <p className="group-hover:text-[#ea590b] text-[white] duration-500">
                 Demo
               </p>

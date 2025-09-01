@@ -33,7 +33,7 @@ function OtherSliders() {
         >
           <div className="flex py-5 lg:px-12 px-2 justify-between items-end ">
             <h3 className="text-center text-[white] text-4xl max-md:text-2xl">
-              Others
+              OTHERS
             </h3>
             <p
               className="text-sm hover:text-[#ea590b] cursor-pointer duration-500"

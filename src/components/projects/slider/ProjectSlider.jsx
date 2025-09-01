@@ -1,17 +1,20 @@
-import Image from "next/image";
-import { Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
+"use client";
 
+import Image from "next/image";
+import { Autoplay, Navigation } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/autoplay";
 function ProjectSlider({ data }) {
   return (
-    <div>
+    <div className="lg:mt-6">
       <Swiper
-        modules={[Navigation]}
+        modules={[Navigation, Autoplay]}
         spaceBetween={50}
         slidesPerView={1}
         className="h-90 lg:h-[542px]"
         navigation
         loop
+        autoplay
       >
         {data.images.map((image, index) => (
           <SwiperSlide key={index} className="">

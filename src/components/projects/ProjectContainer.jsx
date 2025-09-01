@@ -13,7 +13,10 @@ function ProjectContainer() {
 
   return (
     <>
-      <div className="border-b border-[#ededed] mt-15 ">
+      <section
+        id="project-page-contents"
+        className="border-b border-[#ededed] mt-15 "
+      >
         <div className="flex md:justify-start justify-center">
           <div
             className={`px-8 py-2 hover:text-[#ea590b] duration-500 cursor-pointer md:text-base text-sm ${
@@ -40,8 +43,8 @@ function ProjectContainer() {
             FULL-STACK
           </div>
         </div>
-      </div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-self-center mt-8 gap-x-10 gap-y-8">
+      </section>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 justify-self-center mt-12 gap-x-10 gap-y-8">
         {filter === "all"
           ? projectsData.map((project, index) => (
               <ProjectCard key={index} projectData={project} />

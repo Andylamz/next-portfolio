@@ -1,10 +1,9 @@
-import Footer from "@/components/Footer";
 import HomeBtn from "@/components/HomeBtn";
-
+import { ToastContainer, toast } from "react-toastify";
 export const metadata = {
-  title: "Projects | Andy YT Lam",
+  title: "Contact Me | Andy YT Lam",
   description:
-    "Explore my portfolio projects, where I apply React, Next.js, MongoDB, Express and Nodejs to create modern, user-friendly and effcient web applications.",
+    "Feel free to reach out for work opportunities, collaborations, or just to say hello",
   icons: {
     icon: "/favicon-96x96.png",
   },
@@ -15,7 +14,7 @@ export default function Layout({ children }) {
     <div className="flex flex-col text-[#cdcdcd]">
       <HomeBtn />
       {children}
-      <Footer />
+      <ToastContainer />
     </div>
   );
 }
