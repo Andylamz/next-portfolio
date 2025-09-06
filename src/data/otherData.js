@@ -1,5 +1,9 @@
 const otherData = [
   {
+    title: "Figma",
+    path: "/others/figma.svg",
+  },
+  {
     title: "VS Code",
     path: "/others/vscode.svg",
   },

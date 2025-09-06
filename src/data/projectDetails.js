@@ -229,6 +229,25 @@ const projectsData = [
       "/projectScreenshots/portfolioV2/05.jpeg",
     ],
   },
+  {
+    id: 9,
+    title: "Nexcent (Figma)",
+    description:
+      "This project is a front-end build using React and Tailwind CSS, based on a free Figma design. It was a practice in translating Figma layouts into code and fucusing on pixel-perfect UI. As the design only included a large-screen layout, the project is static and not repsonsive",
+    category: "Frontend",
+    tags: ["React", "Tailwind CSS", "Figma"],
+    framework: "React",
+    src: "/projectScreenshots/nexcent/00.jpeg",
+    demo: "https://nexcent-andy.netlify.app/",
+    github: "https://github.com/Andylamz/figma-react-Nexcent",
+    images: [
+      "/projectScreenshots/nexcent/00.jpeg",
+      "/projectScreenshots/nexcent/01.jpeg",
+      "/projectScreenshots/nexcent/02.jpeg",
+      "/projectScreenshots/nexcent/03.jpeg",
+      "/projectScreenshots/nexcent/04.jpeg",
+    ],
+  },
 ];
 
 export default projectsData;

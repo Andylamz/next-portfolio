@@ -19,7 +19,7 @@ function page({ params }) {
   const { id } = use(params);
   const data = projectsData[id];
   // Server side
-  console.log(data);
+  // console.log(data);
   return (
     <div className="min-h-screen xl:px-35 md:px-10 px-4 ">
       <div className="lg:mt-20 mt-8">
