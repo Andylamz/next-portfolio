@@ -7,7 +7,7 @@ This is my latest personal portfolio built with Next.js, showcasing my skills an
 ### Home Page
 
   - Showcases my skills using Swiper with a 3D carousel effect
-  - Added "View List@ option to browsw all skills in each category (Frontend, Backend, etc)
+  - Added "View List" option to browse all skills in each category (Frontend, Backend, etc)
   - Integrated Framer Motion to add smooth animations and enhance the UI experience.
 
 ### Projects
