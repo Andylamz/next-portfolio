@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
       {/* #ea590b  #1d1d1d #4b4b4b/}
       {/* xl:px-35 md:px-10 px-4 */}
       <body className={`bg-[#1d1d1d] text-[#3dbcf7] ${poppins.className}`}>
-        <div className="fixed w-full h-full inset-0 ">
+        <div className="fixed w-full h-full inset-0 max-md:hidden">
           <LiquidEther
             colors={["#5227FF", "#3dbcf7", "#B19EEF"]}
             mouseForce={20}

@@ -46,7 +46,7 @@ function ContactForm() {
   }
 
   return (
-    <div className="mt-20 mb-20 lg:mb-0">
+    <div className="mb-20 lg:mb-0">
       <form
         className="flex flex-col items-center max-w-[400px] mx-auto gap-5"
         onSubmit={sendEmail}
